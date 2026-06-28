@@ -75,7 +75,7 @@ const Navbar = ({ activeSection }) => {
           
           {/* Resume Download Button */}
           <a
-            href="./resume.pdf"
+            href="/resume.pdf"
             download="Sneha_Yadav_Resume.pdf"
             className="flex items-center gap-2 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 hover:from-blue-600 hover:via-indigo-600 hover:to-purple-700 text-white font-medium text-sm px-5 py-2.5 rounded-full shadow-lg shadow-indigo-500/25 transition-all duration-300 hover:scale-[1.03] active:scale-[0.98]"
           >
@@ -88,7 +88,7 @@ const Navbar = ({ activeSection }) => {
         <div className="flex md:hidden items-center gap-4">
           {/* Resume Icon Button for quick mobile download */}
           <a
-            href="./resume.pdf"
+            href="/resume.pdf"
             download="Sneha_Yadav_Resume.pdf"
             className="bg-navy-900 border border-slate-700/50 text-indigo-400 p-2.5 rounded-full hover:bg-navy-850 hover:text-white transition-all duration-300"
             title="Download Resume"
@@ -140,7 +140,7 @@ const Navbar = ({ activeSection }) => {
 
           <div className="mt-auto">
             <a
-              href="./resume.pdf"
+              href="/resume.pdf"
               download="Sneha_Yadav_Resume.pdf"
               className="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 text-white font-semibold py-3.5 rounded-xl shadow-lg shadow-indigo-500/20 hover:scale-[1.01] transition-transform duration-300"
             >

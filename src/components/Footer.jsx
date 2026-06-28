@@ -68,7 +68,7 @@ const Footer = () => {
             </h4>
             
             <a
-              href="./resume.pdf"
+              href="/resume.pdf"
               download="Sneha_Yadav_Resume.pdf"
               className="inline-flex items-center gap-2 bg-navy-900 border border-slate-800 text-slate-200 hover:text-white font-medium text-xs px-4 py-2.5 rounded-xl transition-all duration-300 hover:scale-[1.02] shadow-md shadow-black/10"
             >

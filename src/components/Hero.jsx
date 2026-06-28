@@ -80,7 +80,7 @@ const Hero = () => {
             {/* Buttons Grid */}
             <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-4 pt-4">
               <a
-                href="./resume.pdf"
+                href="/resume.pdf"
                 download="Sneha_Yadav_Resume.pdf"
                 className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium px-5 py-3 rounded-xl shadow-lg shadow-indigo-500/20 hover:scale-[1.03] transition-all duration-300 text-sm sm:text-base cursor-pointer"
               >
@@ -142,7 +142,7 @@ const Hero = () => {
               {/* Image box with floating animation */}
               <div className="absolute inset-0 bg-navy-950 rounded-2xl overflow-hidden border border-slate-700/50 shadow-glass-lg flex items-center justify-center z-10 animate-float-medium">
                 <img 
-                  src="./profile.jpg" 
+                  src="/profile.jpg" 
                   alt="Sneha Yadav" 
                   className="w-full h-full object-cover object-top hover:scale-[1.05] transition-transform duration-700 ease-out"
                 />
