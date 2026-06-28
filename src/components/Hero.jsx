@@ -141,9 +141,7 @@ const Hero = () => {
 
               {/* Image box with floating animation */}
               <div className="absolute inset-0 bg-navy-950 rounded-2xl overflow-hidden border border-slate-700/50 shadow-glass-lg flex items-center justify-center z-10 animate-float-medium">
-                <div style={{ color: 'red', fontSize: '30px' }}>
-                  TEST IMAGE
-                </div>
+
                 <img
                   src={profile}
                   alt="Sneha Yadav"
